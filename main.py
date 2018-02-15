@@ -31,9 +31,7 @@ def main():
     m = [[int(x) for x in el.split(' ')] for el in m]
 
     print(monge(m))
-    # pprint(m)
-
-    pass
 
 
-main()
+if __name__ == '__main__':
+    main()
